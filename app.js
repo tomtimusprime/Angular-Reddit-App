@@ -1,4 +1,4 @@
-const app = angular.module('flapperNews', []);
+const app = angular.module('flapperNews', ['ui.router']);
 
 app.factory('posts', [function() {
     var o = {
